@@ -1,9 +1,8 @@
-replicaCount: 1
-
 image:
   repository: dragos93/argocd
-  tag: "ipv-frontend-1.0.0"
-  pullPolicy: IfNotPresent
+  tag: "ipv-ui-1.0.0"
+
+replicaCount: 1
 
 service:
   type: ClusterIP

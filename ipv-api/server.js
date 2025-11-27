@@ -3,7 +3,7 @@ const app = express();
 const port = 8080;
 
 app.get('/', (req, res) => {
-  res.send('Hello from ipv app v2.0.0 👋');
+  res.send('Hello from ipv-api v1.0.0 👋');
 });
 
 
