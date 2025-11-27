@@ -1,0 +1,17 @@
+replicaCount: 1
+
+image:
+  repository: dragos93/ipv   # change later if needed
+  tag: "dev-0.0.1"
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+
+podAnnotations: {}
+
+resources: {}
+nodeSelector: {}
+tolerations: []
+affinity: {}
