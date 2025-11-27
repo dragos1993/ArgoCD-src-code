@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: dragos93/argocd
+  tag: "hello-ipv-2.0.0"    # or whatever you use for dev
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 8080

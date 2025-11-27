@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: dragos93/argocd
+  tag: "ipv-frontend-1.0.0"
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 8080
